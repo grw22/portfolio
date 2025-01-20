@@ -179,9 +179,11 @@ const HomePage = ({ onProjectClick }) => (
       <section className="mb-16">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">About Me</h2>
         <p className="text-gray-600">
-        Hi, I’m Greg, a tech-savvy professional with a unique blend of project management expertise and technical know-how. With an MSc in Computer Science specialising in Artificial Intelligence and a Product Management certification, I thrive at the intersection of technology, strategy, and user-centric design.
+        Hi, I’m Greg, a problem-solver who loves turning data into stories that drive meaningful impact. With an MSc in Computer Science specialising in Artificial Intelligence, I combine technical expertise with a knack for collaboration and stakeholder management to deliver results.
 
-I enjoy transforming data into compelling stories and building solutions that empower users and drive innovation. My experience spans managing stakeholders, conducting UX research, and applying Agile methodologies to deliver impactful results. Whether it’s streamlining processes, designing roadmaps, or diving into Python for data analysis, I bring curiosity, adaptability, and a collaborative approach to every project.
+I’ve worked across industries, from contributing to a £1bn infrastructure project to supporting customers and projects in fast-paced environments. I’m passionate about creating user experiences that matter—streamlining processes, solving problems, and making technology accessible.
+
+Let’s connect and build something great together!
         </p>
       </section>
 
