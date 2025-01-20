@@ -168,8 +168,8 @@ const HomePage = ({ onProjectClick }) => (
     {/* Header */}
     <header className="bg-white shadow-sm">
       <div className="max-w-5xl mx-auto px-4 py-6">
-        <h1 className="text-3xl font-bold text-gray-900">Your Name</h1>
-        <p className="mt-2 text-lg text-gray-600">Software Developer</p>
+        <h1 className="text-3xl font-bold text-gray-900">Greg Waller</h1>
+        <p className="mt-2 text-lg text-gray-600">Tech Professional</p>
       </div>
     </header>
 
@@ -179,8 +179,9 @@ const HomePage = ({ onProjectClick }) => (
       <section className="mb-16">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">About Me</h2>
         <p className="text-gray-600">
-          Replace this with a brief introduction about yourself, your technical background,
-          and what you're passionate about. Keep it concise but engaging.
+        Hi, I’m Greg, a tech-savvy professional with a unique blend of project management expertise and technical know-how. With an MSc in Computer Science specialising in Artificial Intelligence and a Product Management certification, I thrive at the intersection of technology, strategy, and user-centric design.
+
+I enjoy transforming data into compelling stories and building solutions that empower users and drive innovation. My experience spans managing stakeholders, conducting UX research, and applying Agile methodologies to deliver impactful results. Whether it’s streamlining processes, designing roadmaps, or diving into Python for data analysis, I bring curiosity, adaptability, and a collaborative approach to every project.
         </p>
       </section>
 
