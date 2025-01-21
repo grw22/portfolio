@@ -97,4 +97,4 @@ const EmailAnalysisProject = {
   ]
 };
 
-export default EmailAnalysisProject;
+export default emailAnalysis;

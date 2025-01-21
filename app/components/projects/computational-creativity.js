@@ -22,4 +22,4 @@ const ComputationalCreativityProject = {
   ]
 };
 
-export default ComputationalCreativityProject;
+export default computationalCreativity;

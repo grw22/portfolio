@@ -23,4 +23,4 @@ const StickshiftProject = {
   ]
 };
 
-export default StickshiftProject;
+export default stickshift;

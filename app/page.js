@@ -4,15 +4,15 @@ import React, { useState } from 'react';
 import { Github, ExternalLink, ArrowLeft } from 'lucide-react';
 
 // Import project components
-import StickshiftProject from './components/projects/StickshiftProject';
-import EmailAnalysisProject from './components/projects/EmailAnalysisProject';
-import ComputationalCreativityProject from './components/projects/ComputationalCreativityProject';
+import stickshift from './components/projects/stickshift.js';
+import emailAnalysis from './components/projects/email-analysis.js';
+import computationalCreativity from './components/projects/computational-creativity.js';
 
 // Create projects array
 const projectsData = [
-  StickshiftProject,
-  EmailAnalysisProject,
-  ComputationalCreativityProject
+  stickshift,
+  emailAnalysis,
+  computationalCreativity
 ];
 
 // Project Details Page Component
