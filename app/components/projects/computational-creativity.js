@@ -1,4 +1,6 @@
-const ComputationalCreativityProject = {
+'use client'
+
+export const ComputationalCreativityProject = {
   id: "project3",
   title: "Computational Creativity",
   description: "Using OpenAI's API to create fake movie synopses and then draw movie posters based on what it generated",
@@ -21,5 +23,3 @@ const ComputationalCreativityProject = {
     "Creative content pipeline"
   ]
 };
-
-export default computationalCreativity;

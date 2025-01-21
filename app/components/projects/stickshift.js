@@ -1,4 +1,6 @@
-const StickshiftProject = {
+'use client'
+
+export const stickshift = {
   id: "project1",
   title: "Stickshift: A networking app",
   description: "Building a networking app for career changers - still in progress!",
@@ -22,5 +24,3 @@ const StickshiftProject = {
     "AI integration (planned)"
   ]
 };
-
-export default stickshift;

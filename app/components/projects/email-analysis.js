@@ -1,4 +1,6 @@
-const EmailAnalysisProject = {
+'use client'
+
+export const emailAnalysis = {
   id: "project2",
   title: "Analysing email sentiment",
   description: "Using Python to analyse languge sentiment of job application responses.",
@@ -96,5 +98,3 @@ const EmailAnalysisProject = {
     "Text visualization with WordCloud"
   ]
 };
-
-export default emailAnalysis;
