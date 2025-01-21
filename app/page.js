@@ -7,32 +7,35 @@ import { Github, ExternalLink, ArrowLeft } from 'lucide-react';
 const projectsData = [
   {
     id: "project1",
-    title: "Project 1",
-    description: "Replace this with your first project description. Explain what you built, the technologies used, and its impact.",
+    title: "Product: Stickshift: A networking app",
+    description: "Building a networking app for career changers - still in progress!",
     longDescription: `
-      This is a detailed description of your first project. Here you can go into much more depth about:
-      
-      • The problem you were trying to solve
-      • Your approach to the solution
-      • Technical challenges you overcame
-      • The impact of your project
-      • What you learned
-      
-      You can add multiple paragraphs and really dive deep into the details.
+    Project Overview:
+    I am developing a networking app aimed at supporting career changers and mentors. The app's primary goal is to facilitate meaningful connections between individuals transitioning to new industries and experienced professionals willing to share their expertise. It offers career changers a platform to find mentorship and guidance while providing mentors an opportunity to improve their skills in knowledge sharing and self-improvement.
+
+    Why I’m Building This App:
+    This project is part of my portfolio, demonstrating my ability to design and develop a functional app from concept to prototype. It allows me to apply the skills I’ve gained in product management, user experience research, and technical development while showcasing my understanding of app design, user needs, and collaboration. If the app proves viable, I may explore the possibility of launching it.
+
+    Progress So Far:
+
+    Idea Development: Defined the app’s purpose and key features, focusing on user needs like matching, messaging, and privacy.
+    User Flow: Created a detailed user flow covering the onboarding process, matching algorithm, messaging functionality, and user account management.
+    Wireframing: Currently designing wireframes to visualise the app’s layout and functionality. These include core screens like login, profile creation, matching, and messaging.
+    In future stages, I plan to incorporate AI to suggest matches based on user profiles and refine the app through usability testing and feedback.
     `,
-    tags: ["React", "Node.js", "MongoDB"],
-    githubUrl: "https://github.com/yourusername/project1",
-    liveUrl: "https://project1.com",
+    tags: ["Product", "Wireframing", "Roadmapping", "AI"],
+    // githubUrl: "https://github.com/yourusername/project1",
+    // liveUrl: "https://project1.com",
     features: [
-      "Feature 1 - Describe a key feature",
-      "Feature 2 - Another important feature",
-      "Feature 3 - One more notable feature"
+      "Feature 1 - User-centric matching system",
+      "Feature 2 - Privacy-focused messaging",
+      "Feature 3 - AI integration (planned)"
     ]
   },
   {
     id: "project2",
-    title: "Project 2",
-    description: "Replace this with your second project description. What problems did it solve? What did you learn?",
+    title: "Data: Analysing email sentiment",
+    description: "Using Python to analyse languge sentiment of job application responses.",
     longDescription: `
       Detailed description of your second project. This is where you can really
       showcase your technical expertise and problem-solving abilities.
@@ -41,9 +44,9 @@ const projectsData = [
       You might want to include code snippets, architecture decisions, or performance
       optimizations you made.
     `,
-    tags: ["Python", "Django", "PostgreSQL"],
-    githubUrl: "https://github.com/yourusername/project2",
-    liveUrl: "https://project2.com",
+    tags: ["Python", "Data visualisation", "Data Analysis"],
+    // githubUrl: "https://github.com/yourusername/project2",
+    // liveUrl: "https://project2.com",
     features: [
       "Feature 1 - Describe a key feature",
       "Feature 2 - Another important feature",
