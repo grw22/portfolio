@@ -137,7 +137,7 @@ Let’s connect and build something great together!
               {/* Project Preview */}
               <div className="h-48 bg-gray-200">
                 <img 
-                  src="{project.image}" 
+                  src={project.image}
                   alt={`${project.title} preview`}
                   className="w-full h-full object-cover"
                 />
