@@ -107,7 +107,7 @@ const ProjectPage = ({ project, onBack }) => {
               ))}
             </div>
 
-            {/* Project Links */}
+          {/* Project Links 
             <div className="flex gap-4 mb-6">
               <a 
                 href={project.githubUrl}
@@ -127,7 +127,7 @@ const ProjectPage = ({ project, onBack }) => {
                 <ExternalLink className="w-5 h-5 mr-2" />
                 Live Demo
               </a>
-            </div>
+            </div> */}
 
             {/* Project Preview */}
             <div className="rounded-lg overflow-hidden mb-6">
