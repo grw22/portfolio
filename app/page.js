@@ -17,14 +17,14 @@ const projectsData = [
     
     <p>First the reject emails:</p>
     <img 
-      src="'/images/data analysis project images/reject-emails-wordcloud.png'" 
+      src="/images/data-analysis-project-images/reject-emails-wordcloud.png" 
       alt="Word cloud of rejection emails" 
       className="rounded-lg shadow-md my-4"
     />
     
     <p>And then the non-rejection emails:</p>
     <img 
-      src="'/images/data analysis project images/non-reject-emails-wordcloud.png'" 
+      src="/images/data-analysis-project-images/non-reject-emails-wordcloud.png" 
       alt="Word cloud of non-rejection emails" 
       className="rounded-lg shadow-md my-4"
     />
@@ -40,7 +40,7 @@ const projectsData = [
     <p>But this doesn't really tell us much that is hugely groundbreaking, right? So the next step was to put these words into bigrams and trigrams, for example...</p>
     
     <img 
-      src="'/images/data analysis project images/bigrams-and-trigrams.png'" 
+      src="/images/data-analysis-project-images/bigrams-and-trigrams.png" 
       alt="Bigrams and trigrams visualization" 
       className="rounded-lg shadow-md my-4"
     />
@@ -58,7 +58,7 @@ const projectsData = [
 
     <p>Let's look at this visually:</p>
     <img 
-      src="'/images/data analysis project images/density-plot-of-sentiment-scores.png'" 
+      src="/images/data-analysis-project-images/density-plot-of-sentiment-scores.png" 
       alt="Sentiment density plot" 
       className="rounded-lg shadow-md my-4"
     />
@@ -68,7 +68,7 @@ const projectsData = [
     <p>But let's check how well our model can put words together by topic - in scientific terms this is known as Latent Dirichlet Allocation (LDA).</p>
     
     <img 
-      src="'/images/data analysis project images/coherence-score.png'" 
+      src="/images/data-analysis-project-images/coherence-score.png" 
       alt="LDA topic modeling visualization" 
       className="rounded-lg shadow-md my-4"
     />
