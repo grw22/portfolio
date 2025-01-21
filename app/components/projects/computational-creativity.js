@@ -1,6 +1,6 @@
 'use client'
 
-export const ComputationalCreativityProject = {
+export const computationalCreativity = {
   id: "project3",
   title: "Computational Creativity",
   description: "Using OpenAI's API to create fake movie synopses and then draw movie posters based on what it generated",
