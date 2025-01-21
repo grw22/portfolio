@@ -3,6 +3,7 @@
 export const stickshift = {
   id: "project1",
   title: "Stickshift: A networking app",
+  image: "/images/stickshift-image-for-portfolio.png",
   description: "Building a networking app for career changers - still in progress!",
   longDescription: (
     <div className="space-y-6">

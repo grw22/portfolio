@@ -3,6 +3,7 @@
 export const emailAnalysis = {
   id: "project2",
   title: "Analysing email sentiment",
+  image: "/images/email-analysis-header-image.jpg"
   description: "Using Python to analyse languge sentiment of job application responses.",
   longDescription: (
     <div className="space-y-6">
