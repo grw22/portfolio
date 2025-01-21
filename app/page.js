@@ -7,7 +7,7 @@ import { Github, ExternalLink, ArrowLeft } from 'lucide-react';
 const projectsData = [
   {
     id: "project1",
-    title: "Product: Stickshift: A networking app",
+    title: "Stickshift: A networking app",
     description: "Building a networking app for career changers - still in progress!",
     longDescription: `
     Project Overview:
@@ -34,7 +34,7 @@ const projectsData = [
   },
   {
     id: "project2",
-    title: "Data: Analysing email sentiment",
+    title: "Analysing email sentiment",
     description: "Using Python to analyse languge sentiment of job application responses.",
     longDescription: `
       Detailed description of your second project. This is where you can really
@@ -199,7 +199,7 @@ Let’s connect and build something great together!
               {/* Project Preview */}
               <div className="h-48 bg-gray-200">
                 <img 
-                  src="/api/placeholder/400/200" 
+                  src="/images/stickshift-image-for-portfolio.png" 
                   alt={`${project.title} preview`}
                   className="w-full h-full object-cover"
                 />
