@@ -6,7 +6,6 @@ export const stickshift = {
   image: "/images/stickshift-image-for-portfolio.png",
   description: "Building a networking app for career changers - still in progress!",
   longDescription: (
-    longDescription: (
       <div className="space-y-6">
         <div className="flex items-center space-x-2">
           <span className="font-semibold">Status:</span>
