@@ -60,10 +60,19 @@ export const stickshift = {
               <p>
                 I created medium-fidelity wireframes in <span className="font-medium">Balsamiq</span> to bring the app's structure to life. The wireframes focus on key screens such as login, profile creation, matching, and messaging. These designs are iterative and will be refined based on feedback and testing.
               </p>
-              {/* [Insert link or screenshot of wireframe slides here] */}
+              <div className="w-full h-96 my-4">
+                <iframe 
+                  src="https://docs.google.com/presentation/d/e/2PACX-1vQlU09iWs9CcceL-75pG8TNH8uhu6FfxXcnEsURaG60cE2KXt0t93-82YzRTkhh-xGXiBe7I9_KwzT8/embed?start=false&loop=true&delayms=3000"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allowFullScreen
+                  mozallowfullscreen="true"
+                  webkitallowfullscreen="true"
+                />
             </div>
           </div>
         </div>
+      </div>
     
         <div>
           <h3 className="font-semibold mb-2">Key Features</h3>
