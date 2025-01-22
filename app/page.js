@@ -70,7 +70,7 @@ const ProjectPage = ({ project, onBack }) => {
             {/* Project Preview */}
             <div className="rounded-lg overflow-hidden mb-6">
               <img 
-                src="/api/placeholder/800/400" 
+                src="project.image" 
                 alt={`${project.title} preview`}
                 className="w-full h-auto"
               />
