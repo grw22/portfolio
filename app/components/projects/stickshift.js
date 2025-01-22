@@ -43,8 +43,17 @@ export const stickshift = {
               <p>
                 Using <span className="font-medium">Miro</span>, I mapped out the entire user flow to visualise the onboarding process, matching mechanism, messaging functionality, and account management. This provided a clear blueprint for the app's structure and functionality.
               </p>
-              {/* [Insert image of user map here] */}
+              <div className="w-full h-96 my-4">
+                <iframe 
+                  src="https://miro.com/app/live-embed/uXjVLrhDYnw=/?moveToViewport=-17602,-1913,1921,1590&embedId=523749116345" 
+                  className="w-full h-full"
+                  frameBorder="0" 
+                  scrolling="no" 
+                  allow="fullscreen; clipboard-read; clipboard-write" 
+                  allowFullScreen
+                />
             </div>
+          </div>
     
             <div>
               <h4 className="font-medium mb-1">3. Wireframing</h4>
