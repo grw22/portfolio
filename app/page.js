@@ -8,6 +8,10 @@ import { stickshift } from './components/projects/stickshift.js';
 import { emailAnalysis } from './components/projects/email-analysis.js';
 import { computationalCreativity } from './components/projects/computational-creativity.js';
 
+export const metadata = {
+  title: 'Greg Waller - Portfolio'
+}
+
 // Create projects array
 const projectsData = [
   stickshift,
