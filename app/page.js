@@ -68,11 +68,11 @@ const ProjectPage = ({ project, onBack }) => {
             </div> */}
 
             {/* Project Preview */}
-            <div className="rounded-lg overflow-hidden mb-6">
+            <div className="rounded-lg overflow-hidden mb-6 h-96 bg-gray-200">
               <img 
                 src={project.image}
                 alt={`${project.title} preview`}
-                className="w-full h-auto"
+                className="w-full h-full object-cover"
               />
             </div>
 
