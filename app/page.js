@@ -1,7 +1,8 @@
 'use client'
 
 import Link from 'next/link';
-import { projectsData } from './components/projects/projectData.js';  // We'll create this
+import { projectsData } from './components/projects/projectData.js';
+import { contactSection as ContactSection } from './components/ContactSection';
 
 export default function HomePage() {
   return (
@@ -77,6 +78,8 @@ export default function HomePage() {
           </div>
         </section>
       </main>
+
+      <ContactSection /> 
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200 mt-12">
