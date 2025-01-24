@@ -72,7 +72,7 @@ export default function PosterPage() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Movie Review Prompt</h2>
         <div className="bg-gray-50 p-6 rounded-lg">
-          <p className="text-gray-800">Create a movie review based on the following facts about the movie. You should also create a unique title of your choosing. It was released in the 2000s.</p>
+          <p className="text-gray-800">Create a movie review based on the following facts about the movie. You should also create a unique title of your choosing: The genre is Sci-Fi. It was released in the 1960s. The plot structure is "Overcoming the Monster, where the protagonist must defeat an antagonist (usually an individual, force, or entity) that threatens them and the wider world". The movie's country of origin is Egypt.</p>
         </div>
       </section>
 
@@ -94,10 +94,10 @@ export default function PosterPage() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Movie Poster Prompt</h2>
         <div className="bg-gray-50 p-6 rounded-lg">
-          <p className="text-gray-800">Create a movie poster in a Pointillism style based on the following movie review:
-Movie Review: ""Beneath the Veil of Time""
+          <p className="text-gray-800">Create a movie poster in a Art Deco style based on the following movie review:
+Title: The Pharaoh's Interstellar Battle
 
-"Beneath the Veil of Time" is a movie that was released in the 2000s - an era that was filled with a renaissance of innovative film concepts, ground-breaking special effects, and an emergence of new talent. This film perfectly encapsulates the spirit of the time, providing a refreshing take on the cinematic experience...
+The Pharaoh's Interstellar Battle is a groundbreaking sci-fi film released in the 1960s from Egypt, showcasing the country's prowess in the genre. The movie follows the classic plot structure of "Overcoming the Monster," where the protagonist must defeat an antagonist that threatens them and the wider world...
 </p>
         </div>
       </section>

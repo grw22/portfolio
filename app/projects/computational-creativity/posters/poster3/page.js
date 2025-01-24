@@ -72,7 +72,7 @@ export default function PosterPage() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Movie Review Prompt</h2>
         <div className="bg-gray-50 p-6 rounded-lg">
-          <p className="text-gray-800">Create a movie review based on the following facts about the movie. You should also create a unique title of your choosing. It was released in the 2000s.</p>
+          <p className="text-gray-800">Create a movie review based on the following facts about the movie. You should also create a unique title of your choosing. It was released in the 1950s. The movie's country of origin is Norway. The plot structure is "Rags to Riches, where the protagonist achieves something they lack, loses what they’ve gained, and then gets it back again". The leading actors are John Malkovich and Steve McQueen. The genre is Mystery.</p>
         </div>
       </section>
 
@@ -94,10 +94,10 @@ export default function PosterPage() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Movie Poster Prompt</h2>
         <div className="bg-gray-50 p-6 rounded-lg">
-          <p className="text-gray-800">Create a movie poster in a Pointillism style based on the following movie review:
-Movie Review: ""Beneath the Veil of Time""
+          <p className="text-gray-800">Create a movie poster in a Ukiyo-e style based on the following movie review:
+Title: The Norwegian Enigma
 
-"Beneath the Veil of Time" is a movie that was released in the 2000s - an era that was filled with a renaissance of innovative film concepts, ground-breaking special effects, and an emergence of new talent. This film perfectly encapsulates the spirit of the time, providing a refreshing take on the cinematic experience...
+Set in 1950s Norway, "The Norwegian Enigma" is a captivating mystery film that takes the audience on a journey of rags to riches and back again. Starring the talented John Malkovich and Steve McQueen, the movie follows the protagonist as he achieves success, only to lose it all, and then fight to regain what he has lost...
 </p>
         </div>
       </section>
