@@ -5,17 +5,21 @@ import { ArrowLeft } from 'lucide-react'
 
 export default function PosterPage() {
   const posterData = {
-    number: 1,
-    title: "Rogue Justice",
-    review: <p>"Rogue Justice" is a high-octane action film that delivers non-stop thrills from start to finish. The movie follows a renegade cop, played by a rugged and charismatic lead actor, as he takes on a powerful crime syndicate single-handedly. 
-      
-      The film is filled with intense car chases, explosive shootouts, and adrenaline-pumping fight scenes. The stunts and special effects are top-notch, keeping audiences on the edge of their seats throughout the entire movie.
-      
-      The lead actor's performance is captivating, portraying a complex and morally ambiguous character who will stop at nothing to bring the villains to justice. The supporting cast also delivers strong performances, adding depth and emotion to the film. 
-      
-      The plot is fast-paced and engaging, with plenty of unexpected twists and turns to keep viewers guessing. The movie also touches on themes of loyalty, redemption, and the price of standing up for what's right, adding depth to the action-packed storyline. 
-      
-      Overall, "Rogue Justice" is a must-see for action movie fans. With its heart-pounding action sequences, compelling characters, and a gripping storyline, it's a film that will leave audiences wanting more.</p>
+    number: 2,
+    title: "Beneath the Veil of Time",
+    review: <p>"Beneath the Veil of Time" is a movie that was released in the 2000s - an era that was filled with a renaissance of innovative film concepts, ground-breaking special effects, and an emergence of new talent. This film perfectly encapsulates the spirit of the time, providing a refreshing take on the cinematic experience.
+
+    "Beneath the Veil of Time" is a beautifully crafted film that immerses the viewer into a world of mystery and intrigue. The plot is a thought-provoking exploration of time, reality, and the human condition, filled with unexpected twists and turns that keep you on the edge of your seat. The narrative is both engaging and complex, successfully holding the audience's attention from start to finish.
+    
+    The performances are top-notch, with the cast delivering stellar performances that embody their characters perfectly. The chemistry between the actors is palpable, creating a deep emotional connection that allows the audience to fully invest in their journeys.
+    
+    Visually, the movie is nothing short of stunning. The cinematography is exceptional, with each frame meticulously composed to create a visually stunning experience. The use of special effects is tastefully done, adding to the overall aesthetic of the film without ever becoming a distraction.
+    
+    The film's score complements the visuals beautifully, creating an immersive audio-visual experience. The haunting melodies and stirring orchestral pieces enhance the emotional depth of the narrative, further drawing the audience into the world of the film.
+    
+    "Beneath the Veil of Time" manages to combine all the elements of a great film - an engaging story, strong performances, impressive visuals, and a compelling score - to create a cinematic experience that is both entertaining and thought-provoking. It is a testament to the creativity and talent of the 2000s era and a must-watch for any film enthusiast. 
+    
+    In conclusion, "Beneath the Veil of Time" is a remarkable film that showcases the innovation and creativity of the 2000s. With its captivating story, excellent performances, and stunning visuals, it is a movie that leaves a lasting impression. The film is a shining example of the cinematic brilliance that the 2000s had to offer.</p>
 ,
     variables: {
       genre: "Action",
@@ -26,7 +30,7 @@ export default function PosterPage() {
       country: "None",
 },
     artStyle: {
-      selected: "Art Deco",
+      selected: "Pointillism",
       reason: "Selected based on sentiment analysis by BERT",
     },
     aidaScores: {
@@ -74,7 +78,7 @@ export default function PosterPage() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Movie Review Prompt</h2>
         <div className="bg-gray-50 p-6 rounded-lg">
-          <p className="text-gray-800">Create a movie review based on the following facts about the movie. You should also create a unique title of your choosing. The genre is Action.</p>
+          <p className="text-gray-800">Create a movie review based on the following facts about the movie. You should also create a unique title of your choosing. It was released in the 2000s.</p>
         </div>
       </section>
 
@@ -96,10 +100,10 @@ export default function PosterPage() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Movie Poster Prompt</h2>
         <div className="bg-gray-50 p-6 rounded-lg">
-          <p className="text-gray-800">Create a movie poster in a Art Deco style based on the following movie review:
-Title: "Rogue Justice"
+          <p className="text-gray-800">Create a movie poster in a Pointillism style based on the following movie review:
+Movie Review: ""Beneath the Veil of Time""
 
-"Rogue Justice" is a high-octane action film that delivers non-stop thrills from start to finish. The movie follows a renegade cop, played by a rugged and charismatic lead. . .
+"Beneath the Veil of Time" is a movie that was released in the 2000s - an era that was filled with a renaissance of innovative film concepts, ground-breaking special effects, and an emergence of new talent. This film perfectly encapsulates the spirit of the time, providing a refreshing take on the cinematic experience...
 </p>
         </div>
       </section>
