@@ -40,9 +40,16 @@ export const contactSection = () => {
             <Linkedin size={24} />
             <span>LinkedIn Profile</span>
           </a>
+          <a
+            href="mailto:gregrwaller@gmail.com"
+            className="flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-4"
+          >
+            <Mail size={24} />
+            <span>Email Me</span>
+          </a>
           <div className="flex items-center gap-2 text-gray-600">
             <Mail size={24} />
-            <span>Or use the form</span>
+            <span>Or use the form 👉</span>
           </div>
         </div>
 
