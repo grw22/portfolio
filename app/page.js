@@ -12,22 +12,29 @@ export default function HomePage() {
     <header className="bg-white dark:bg-gray-800 shadow-sm">
       <div className="max-w-5xl mx-auto px-4 py-6">
         <div className="flex justify-between items-center">
-          <div>
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Greg Waller</h1>
-            <p className="mt-2 text-lg text-gray-600 dark:text-gray-300">Tech Professional</p>
-            </div>
-            <div className="flex items-center gap-4"> {/* Added container for navigation items */}
-              <a 
-                href="#contact" 
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
-              >
-                Contact
-              </a>
-              <ThemeToggle />
+          <div className="flex items-center gap-4">
+            <img 
+              src="/images/greg-avataaars-1.png"
+              alt="Greg's avatar"
+              className="w-16 h-16 rounded-full"
+            />
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Greg Waller</h1>
+              <p className="mt-2 text-lg text-gray-600 dark:text-gray-300">Tech Professional</p>
             </div>
           </div>
+          <div className="flex items-center gap-4">
+            <a 
+              href="#contact" 
+              className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+            >
+              Contact
+            </a>
+            <ThemeToggle />
+          </div>
         </div>
-      </header>
+      </div>
+    </header>
 
       {/* Main Content */}
       <main className="max-w-5xl mx-auto px-4 py-12">
