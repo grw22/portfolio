@@ -18,7 +18,8 @@ export const computationalCreativity = {
   longDescription: (
     <div className="space-y-6">
       <section>
-        <h3 className="text-xl font-semibold mb-4">Examples of the Generated Movie Posters (Click/Tap poster for breakdown)</h3>
+        <h3 className="text-xl font-semibold mb-4">Examples of the Generated Movie Posters</h3>
+        <p className="text-gray-600 dark:text-gray-400 mb-4">Click or tap a poster for its breakdown</p>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {[1, 2, 3, 4].map((num) => (
             <Link 
